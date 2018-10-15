@@ -9,7 +9,8 @@
     <link rel="shortcut icon" href="./res/img/favlogo.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="res/css/styles.css" rel="stylesheet">
 </head>
 
@@ -56,25 +57,37 @@
         <!-- About me -->
         <div class="row about-me">
             <section class="container about-me" id="about-me">
-
                 <div class="row">
                     <h2>Sobre Mí</h2>
                 </div>
+                <div id="ss-container" class="ss-container">
+                <div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <a href="#" id="circle" class="ss-circle ss-circle-10 "><h2>'About Me'</h2></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>October 19, 2011</span>
+                            <a href="http://tympanus.net/Tutorials/BlurMenu/">Blur Menu with CSS3 Transitions</a>
+                        </h3>
+                    </div>
+                </div>
+                </div>
 
-                
-                <div class="row feats-row">
+                <!-- Container de efectos de imagenes y descripción -->
+                <!-- <div class="row feats-row">
                     <div class="col-md-6 feats-container">
                         <section>
                            
                         </section>
                     </div>
                     <div class="col-md-6 feat-bg bg-facts hidden-xs hidden-sm invisible"></div>
-                </div>
+                </div> -->
 
             </section>
         </div>
 
-        <!-- Tools -->
+        <!-- Skills -->
         <section class="row dark-container tools-row">
             <div class="container tools" id="tools">
                 <div class="row">
@@ -100,17 +113,17 @@
 
                 <div class="row">
                     <ul class="libs-showcase clearfix">
-                        <li><img class="js-tool-logo invisible" id="angular-logo" src="res/img/angular-logo.png" alt="AngularJS logo"></li>
-                        <li><img class="js-tool-logo invisible" id="sass-logo" src="res/img/sass-logo.png" alt="Sass logo"></li>
-                        <li><img class="js-tool-logo invisible" id="jquery-logo" src="res/img/jquery-logo.svg" alt="jQuery logo"></li>
-                        <li><img class="js-tool-logo invisible" id="bootstrap-logo" src="res/img/bootstrap-logo.svg" alt="Bootstrap logo"></li>
-                        <li><img class="js-tool-logo invisible" id="gimp-logo" src="res/img/gimp-logo.png" alt="Gimp logo"></li>
+                        <li><img class="js-tool-logo invisible" id="angular-logo" src="" alt="">thing1</li>
+                        <li><img class="js-tool-logo invisible" id="sass-logo" src="" alt="">thing2</li>
+                        <li><img class="js-tool-logo invisible" id="jquery-logo" src="" alt="">thing3</li>
+                        <li><img class="js-tool-logo invisible" id="bootstrap-logo" src="" alt="">thing4</li>
+                        <li><img class="js-tool-logo invisible" id="gimp-logo" src="" alt="">thing5</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Portfolio -->
+        <!-- Proyectos -->
         <div class="portfolio-row row">
             <section class="container portfolio" id="portfolio">
                 <div class="row">
@@ -178,7 +191,7 @@
             </section>
         </div>
 
-        <!-- Contact -->
+        <!-- Contacto -->
         <div class="row contact-row dark-container">
             <section class="container contact" id="contact">
                 <div class="row">
@@ -195,15 +208,19 @@
         </div>
 
     </div>
-
+    <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
     <script src="ext/js/jquery.filterizr.min.js"></script>
+    <script src="ext/js/jquery.easing.1.3.js"></script>
+    <script src="ext/js/modernizr.custom.11333.js"></script>
+    <script src="ext/js/jquery.circlemouse.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="res/js/typewriter.js"></script>
     <script src="res/js/app.js"></script>
+    <script src="res/js//about-me.js"></script>
 
 </body>
 </html>
