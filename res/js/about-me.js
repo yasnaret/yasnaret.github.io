@@ -16,7 +16,7 @@ let $rows			= $('#ss-container > div.ss-row'),
 	// used in the scroll setTimeout function
 	anim			= false,
 	// page scroll speed
-	scollPageSpeed	= 2000 ,
+	scollPageSpeed	= 1000 ,
 	// page scroll easing
 	scollPageEasing = 'easeInOutExpo',
     // perspective?
@@ -147,7 +147,7 @@ let $rows			= $('#ss-container > div.ss-row'),
 		// how much we scrolled so far
 	var winscroll	= $win.scrollTop(),
 		// the y value for the center of the screen
-	winCenter	= winSize.height / 2 + winscroll;
+	winCenter	= winSize.height / 1.3+ winscroll;
 	
 	// for every row that is not inviewport
 	$rowsOutViewport.each( function(i) {
@@ -166,7 +166,7 @@ let $rows			= $('#ss-container > div.ss-row'),
 			if( perspective ) {
 
 				$rowL.css({
-					'-webkit-transform'	: 'translate3d(-75%, 0, 0) rotateY(-90deg) translate3d(-75%, 0, 0)',
+					'-webkit-transform'	: 'translate3d(-75%, 0, 0) rotateY(-95deg) translate3d(-75%, 0, 0)',
 					'opacity'			: 0
 				});
 				$rowR.css({
@@ -224,7 +224,7 @@ let $rows			= $('#ss-container > div.ss-row'),
 			// set calculated values
 			if( perspective ) {
 
-				var	t = Math.max( factor * 75, 0 ),
+				var	t = Math.max( factor * 95, 0 ),
 					r = Math.max( factor * 90, 0 ),
 					o = Math.min( Math.abs( factor - 1 ), 1 );
 
@@ -269,12 +269,14 @@ $(function() {
             
             el.removeClass('ec-circle-hover');
             
-        },
-        onClick			: function( el ) {
-            
-            alert('clicked');
-            
-        }
+		},
+		onClick			: function( ) {
+		
+		location.href='#about-me'
+			
+		}
+       
     });
-    
+   
+
 });
