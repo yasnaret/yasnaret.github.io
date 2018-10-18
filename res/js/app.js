@@ -79,7 +79,7 @@ $(window).load(function() {
         }
     });
 
-
+   
 
     //particles
     particlesJS.load('main-header', '../../ext/js/particlesjs-config.json');
@@ -119,20 +119,20 @@ $(window).load(function() {
         });
     }, 70);
 
-    /*******************************************
-                    ANIMATIONS
-    *******************************************/
-    $('.about-me').waypoint(function(dir) {
-        $('.feat-bg.bg-me').removeClass('invisible').addClass('animated slideInRight');
-    }, {offset: '60%'});
-    $('.about-me').waypoint(function(dir) {
-        $('.feat-bg.bg-whatido').removeClass('invisible').addClass('animated slideInLeft');
-    }, {offset: '30%'});
-    $('.about-me').waypoint(function(dir) {
-        $('.feat-bg.bg-facts').removeClass('invisible').addClass('animated slideInRight');
-    }, {offset: '-5%'});
 
-    $('.tools').waypoint(function(dir) {
-        $('.js-tool-logo').removeClass('invisible').addClass('animated zoomIn');
-    }, {offset: '40%'});
+
+// animation
+$('.about-me').waypoint(function(dir) {
+    $('.feat-bg.bg-me').removeClass('invisible').addClass('animated slideInRight');
+}, {offset: '60%'});
+$('.about-me').waypoint(function(dir) {
+    $('.feat-bg.bg-whatido').removeClass('invisible').addClass('animated slideInLeft');
+}, {offset: '30%'});
+$('.about-me').waypoint(function(dir) {
+    $('.feat-bg.bg-facts').removeClass('invisible').addClass('animated slideInRight');
+}, {offset: '-5%'});
+
+$('.tools').waypoint(function(dir) {
+    $('.js-tool-logo').removeClass('invisible').addClass('animated zoomIn');
+}, {offset: '40%'});
 });

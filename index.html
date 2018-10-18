@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Portafolio de Yasnaret Soto, Front End Developer">
     <title>Yasnaret Soto | Portafolio | Front End Developer</title>
-    <link rel="shortcut icon" href="./res/img/favlogo.png">
+    <link rel="shortcut icon" href="./res/img/YAS.PNG">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic' rel='stylesheet' type='text/css'>
@@ -16,6 +16,8 @@
 </head>
 
 <body data-spy="scroll" data-target="#main-nav">
+        <div class="loader-screen">
+            </div>
     <div class="container-fluid">
         <div class="row">
             <header class="main-header" id="main-header">
@@ -54,7 +56,6 @@
             
             </header>
         </div>
-
         <!-- About me -->
         <div class="row about-me">
             <section class="container about-me" id="about-me">
@@ -78,20 +79,8 @@
                     </div>
                 </div>
                 </div>
-
-                <!-- Container de efectos de imagenes y descripción -->
-                <!-- <div class="row feats-row">
-                    <div class="col-md-6 feats-container">
-                        <section>
-                           
-                        </section>
-                    </div>
-                    <div class="col-md-6 feat-bg bg-facts hidden-xs hidden-sm invisible"></div>
-                </div> -->
-
             </section>
         </div>
-
         <!-- Skills -->
         <section class="row dark-container tools-row">
             <div class="container tools" id="tools">
@@ -101,29 +90,57 @@
                 <div class="row">
                     <section class="col-sm-4 skill-box">
                         <div class="row">
-                           
+                            <h3><span class="ion-social-html5-outline icon-header"><img class='icon-header' src="./res/img/htmlvector.png" alt=""></span>HTML5</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptate temporibus beatae consequatur quam at deleniti eius facilis architecto quibusdam similique recusandae porro, ad incidunt suscipit accusamus vero aut in..</p>
                         </div>
                     </section>
                     <section class="col-sm-4 skill-box">
                         <div class="row">
-                           
+                            <h3><span class="ion-social-css3-outline icon-header"><img class='icon-header' src="./res/img/cssvector.png" alt=""></span>CSS3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda similique ipsum repudiandae natus hic in minima veritatis expedita, facere voluptas, eveniet magni! Blanditiis magni explicabo illum suscipit neque illo?.</p>
                         </div>
                     </section>
                     <section class="col-sm-4 skill-box">
                         <div class="row">
-                            
+                            <h3><span class="ion-social-javascript-outline icon-header"><img class='icon-header' src="./res/img/jsvector.png" alt=""></span>JavaScript</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit tempora consequuntur reprehenderit eveniet numquam quae incidunt doloremque saepe explicabo, sint totam quisquam aspernatur, cum, dolorem at tenetur facilis ipsum!</p>
                         </div>
                     </section>
-                </div>
-
-                <div class="row">
-                    <ul class="libs-showcase clearfix">
-                        <li><img class="js-tool-logo invisible" id="angular-logo" src="" alt="">thing1</li>
-                        <li><img class="js-tool-logo invisible" id="sass-logo" src="" alt="">thing2</li>
-                        <li><img class="js-tool-logo invisible" id="jquery-logo" src="" alt="">thing3</li>
-                        <li><img class="js-tool-logo invisible" id="bootstrap-logo" src="" alt="">thing4</li>
-                        <li><img class="js-tool-logo invisible" id="gimp-logo" src="" alt="">thing5</li>
-                    </ul>
+                    <section class="col-sm-4 skill-box">
+                        <div class="row">
+                            <div class="row" style='margin:1em 0em;'>      
+                                <div class="col-xs-4">
+                                    <img src="./res/img/git.png" style='width:100%;margin-left: auto; margin-right: auto; display: block;'alt="">
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="./res/img/github.png" style='width:100%;margin-left: auto; margin-right: auto; display: block;'alt="">
+                                </div>
+                                <div class="col-xs-4" >
+                                    <img src="./res/img/bootstrap.png" style='width:100%;margin-left: auto; margin-right: auto; display: block; margin-top:0.5em;'alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-sm-4 skill-box">
+                            <div class="row">
+                            <img style='width:100%;margin-left: auto; margin-right: auto; display: block;' src="./res/img/01_device-morph.gif" alt="">  
+                            </div>
+                    </section>
+                    <section class="col-sm-4 skill-box">
+                            <div class="row">
+                                <div class="row" style='margin:1em 0em;'>      
+                                        <div class="col-xs-4">
+                                            <img src="./res/img/mocha.png" style='width:100%;margin-left: auto; margin-right: auto; display: block;'alt="">
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <img src="./res/img/nodejs.png" style='width:100%;margin-left: auto; margin-right: auto; display: block; margin-top: 1em;'alt="">
+                                        </div>
+                                        <div class="col-xs-4" >
+                                            <img src="./res/img/react.png" style='width:100%;margin-left: auto; margin-right: auto; display: block; margin-top:0.5em;'alt="">
+                                        </div>
+                                    </div>
+                            </div>
+                    </section>
                 </div>
             </div>
         </section>
@@ -225,7 +242,7 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./res/js/typewriter.js"></script>
     <script src="./res/js/app.js"></script>
-    <script src="./res/js//about-me.js"></script>
+    <script src="./res/js/about-me.js"></script>
 
 </body>
 </html>

@@ -1975,7 +1975,7 @@ input:focus {
 }
 
 .icon-header {
-    background-color: #3498db;
+    background-color: grey;
     color: white;
     display: inline-block;
     width: 2.5rem;
@@ -2762,20 +2762,19 @@ div:hover>h3>.icon-header {
     font-size: 120%
 }
 
-#sass-logo {
-
+#a2-logo {
     animation-delay: 0.25s
 }
 
-#jquery-logo {
+#a3-logo {
     animation-delay: 0.5s
 }
 
-#bootstrap-logo {
+#a4-logo {
     animation-delay: 0.75s
 }
 
-#gimp-logo {
+#a5-logo {
     animation-delay: 1s
 }
 
@@ -2900,14 +2899,14 @@ div:hover>h3>.icon-header {
 /* Hover and Click Trigger for Circular Elements with jQuery */
 
 .ec-circle{
-    background-image: url(../img/About+me1.jpg);
+    background-image: url(../img/InkedAbout-Me_LI.jpg);
 	-webkit-border-radius: 210px;
 	border-radius: 50%;
 	text-align: center;
 	overflow: hidden;
 	font-family:'Kelly Slab', Georgia, serif;
 	box-shadow: 
-		inset 0 0 1px 230px rgba(0,0,0,0.6),
+		inset 0 0 1px 230px rgba(0, 0, 0, 0.219),
 		inset 0 0 0 7px #1b6669;
 	transition: box-shadow 400ms ease-in-out;
 	display: block;
