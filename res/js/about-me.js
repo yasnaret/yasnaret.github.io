@@ -134,7 +134,7 @@ let $rows			= $('#ss-container > div.ss-row'),
 					placeRows();
 					anim = false;
 					
-				}, 10 );
+				}, 1 );
 			
 			}
 		});

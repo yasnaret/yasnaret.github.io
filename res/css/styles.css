@@ -1861,14 +1861,14 @@ h2 {
     }
 }
 
-/* h2:after {
+h2:after {
     display: block;
-    content: "Sobre Mi";
+    content: "";
     height: 2px;
     width: 6rem;
-    background-color: rgb(46, 25, 46);
+    background-color: #3498db;
     margin: 15px auto 0 auto
-} */
+}
 
 h3 {
     padding-right: 1rem;
@@ -2151,7 +2151,7 @@ div:hover>h3>.icon-header {
     height: 2.5rem;
     transition: all 0.25s
 }
-
+/* 
 .social-nav li .social-btn:hover,
 .social-nav li .social-fb:hover,
 .social-nav li .social-linkedin:hover,
@@ -2163,9 +2163,9 @@ div:hover>h3>.icon-header {
 .social-nav li .social-github:focus:hover,
 .social-nav li .social-email:focus:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
-}
+} */
 
-.social-nav li .social-fb:hover {
+/* .social-nav li .social-fb:hover {
     background-color: #3b5998;
     border-color: #3b5998
 }
@@ -2183,7 +2183,7 @@ div:hover>h3>.icon-header {
 .social-nav li .social-email:hover {
     background-color: #3498db;
     border-color: #3498db
-}
+} */
 
 .main-header {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../img/fondo-02.jpg) center center;
@@ -2842,7 +2842,8 @@ div:hover>h3>.icon-header {
 
 .ss-medium .ss-circle{
 	width: 275px;
-	height:275px;
+    height:275px;
+    margin-top: 2.5em;
 }
 
 .ss-left .ss-circle{
@@ -2925,11 +2926,16 @@ div:hover>h3>.icon-header {
 
 
 /* contactame */
+.tt-wrapper{
+    padding-left: 0em;
+    justify-content: center;
+    list-style:none;
+}
 
 .tt-wrapper li a{
 	display: block;
-	width: 68px;
-	height: 70px;
+	width: 60px;
+	height: 60px;
 	margin: 0 2px;
 	outline: none;
 	position: relative;
@@ -2984,4 +2990,35 @@ div:hover>h3>.icon-header {
 .tt-wrapper li a:hover span{
 	opacity: 0.9;
 	bottom: 70px;
+}
+
+.letras{
+    color:white !important;
+    font-weight: 300 !important;
+    font-size: 1.3em !important;
+    background-color: #562750e0 !important;
+}
+
+/* aboutme text  */
+.caja{
+  margin: 0 auto;
+  padding: 2px;
+  background-color: #1b66697d; /* gold */
+  background-repeat: no-repeat;
+  margin-top: 2em;
+}
+
+.contenido
+{
+  background:#c6c6c7;
+  padding: 2em;
+  text-align: center;
+  margin-top: 1em;
+ 
+}
+
+.showcase-img{
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
 }
