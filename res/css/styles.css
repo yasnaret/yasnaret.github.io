@@ -2807,9 +2807,8 @@ div:hover>h3>.icon-header {
 }
 
 .ss-right p{
-   
     font-weight: 400;
-    color: white
+    color: #17313e;
 }
 
 .ss-left{
@@ -3011,7 +3010,7 @@ div:hover>h3>.icon-header {
 
 .contenido
 {
-  background:#c6c6c7;
+background: #bfc9d4;
   padding: 2em;
   text-align: center;
   margin-top: 1em;
